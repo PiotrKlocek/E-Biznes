@@ -39,6 +39,7 @@ https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl
 ***
 
 **Zadanie 3**
+
 ✅ 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord   
 ✅ 3.5 Aplikacja jest w stanie odbierać wiadomości użytkowników z platformy Discord skierowane do aplikacji (bota)  
 ✅ 4.0 Zwróci listę kategorii na określone żądanie użytkownika  
@@ -50,3 +51,29 @@ https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl
 
 Obraz dockerowy:
 https://hub.docker.com/repository/docker/piterek111/ktor-discord-bot/general
+
+***
+
+**Zadanie 4**
+
+Należy stworzyć projekt w echo w Go. Należy wykorzystać gorm do
+stworzenia kilka modeli, gdzie pomiędzy dwoma musi być relacja. Należy
+zaimplementować proste endpointy do dodawania oraz wyświetlania danych
+za pomocą modeli. Jako bazę danych można wybrać dowolną, sugerowałbym
+jednak pozostać przy sqlite.  
+
+✅ 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie
+miała kontroler Produktów zgodny z CRUD  
+✅ 3.5 Należy stworzyć model Produktów wykorzystując gorm oraz
+wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast
+listy)  
+✅ 4.0 Należy dodać model Koszyka oraz dodać odpowiedni endpoint  
+✅ 4.5 Należy stworzyć model kategorii i dodać relację między kategorią,
+a produktem  
+✅ 5.0 pogrupować zapytania w gorm’owe scope'y  
+
+Link do video:  
+
+https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl/IQCjiMkBJZjAR6L50YU3DDAQAfu0NWre-GkGrhY-b67lcTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yLjd6P
+
+***
