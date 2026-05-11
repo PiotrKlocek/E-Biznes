@@ -1,0 +1,6 @@
+[submodule "Zestaw07/backend"]
+	path = Zestaw07/backend
+	url = https://github.com/PiotrKlocek/project-backend.git
+[submodule "Zestaw07/frontend"]
+	path = Zestaw07/frontend
+	url = https://github.com/PiotrKlocek/project-frontend.git

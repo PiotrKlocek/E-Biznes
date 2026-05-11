@@ -101,3 +101,81 @@ kliencką na dockerze via docker-compose
 
 Link do video:  
 https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl/IQDl8xKe97JOTqyjEGvd67XQAQbdWC3b4Okm-uK9PZB330g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kQrtHM
+
+***
+
+**Zadanie 6**  
+
+Należy stworzyć 20 przypadków testowych w jednym z rozwiązań:  
+
+- Cypress JS (JS)  
+- Selenium (Kotlin, Python, Java, JS, Go, Scala)  
+
+Testy mają w sumie zawierać minimum 50 asercji (3.5). Mają również
+uruchamiać się na platformie Browserstack (5.0). Proszę pamiętać o
+stworzeniu darmowego konta via https://education.github.com/pack.  
+
+✅ 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium
+(Kotlin, Python, Java, JS, Go, Scala)  
+✅ 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50
+asercji  
+❌ 4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego
+projektu z minimum 50 asercjami  
+❌ 4.5 Należy dodać testy API, należy pokryć wszystkie endpointy z
+minimum jednym scenariuszem negatywnym per endpoint  
+❌ 5.0 Należy uruchomić testy funkcjonalne na Browserstacku  
+
+Link do video:  
+https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl/IQBtEVNlQ0fERoKiBAmkuYdDAXLhmr_fDmIpZqZfZIlKVnw?e=gJnRGD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+***
+
+**Zadanie 7**
+
+✅ 3.0 Należy dodać litera do odpowiedniego kodu aplikacji serwerowej w
+hookach gita  
+✅ 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod
+aplikacji serwerowej)  
+✅ 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod
+aplikacji serwerowej)  
+✅ 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa
+w kodzie w Sonarze (kod aplikacji serwerowej)  
+✅ 5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie
+aplikacji klienckiej  
+
+## Repozytoria
+
+### Backend
+- GitHub: https://github.com/PiotrKlocek/project-backend
+- SonarCloud: https://sonarcloud.io/project/overview?id=PiotrKlocek_project-backend
+
+### Frontend
+- GitHub: https://github.com/PiotrKlocek/project-frontend
+- SonarCloud: https://sonarcloud.io/project/overview?id=PiotrKlocek_project-frontend
+
+
+frontend:
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-frontend&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-frontend)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-frontend&metric=bugs)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-frontend)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-frontend&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-frontend)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-frontend&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-frontend)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-frontend&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-frontend)
+
+backend:
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-backend&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-backend)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-backend&metric=bugs)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-backend)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-backend&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-backend)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-backend&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-backend)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=PiotrKlocek_project-backend&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=PiotrKlocek_project-backend)
+
+
+
+## Commity
+
+### Backend
+- https://github.com/PiotrKlocek/project-backend/commits/main/
+
+### Frontend
+- https://github.com/PiotrKlocek/project-frontend/commits/main/
