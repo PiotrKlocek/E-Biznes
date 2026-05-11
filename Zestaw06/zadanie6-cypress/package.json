@@ -1,0 +1,14 @@
+{
+  "name": "zadanie6-cypress-browserstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:browserstack": "browserstack-cypress run --sync"
+  },
+  "devDependencies": {
+    "browserstack-cypress-cli": "^1.36.5",
+    "cypress": "^14.0.0"
+  }
+}

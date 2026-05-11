@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "username": "*********",
+    "access_key": "********"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "edge",
+      "os": "Windows 11",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.config.js",
+    "cypress_version": "14",
+    "project_name": "Zadanie 6 - CypressJS",
+    "build_name": "zadanie6-functional-tests",
+    "parallels": 2,
+    "exclude": [],
+    "npm_dependencies": {
+      "cypress": "^14.0.0"
+    }
+  },
+  "connection_settings": {
+    "local": false
+  },
+  "disable_usage_reporting": true
+}
