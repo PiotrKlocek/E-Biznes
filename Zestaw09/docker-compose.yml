@@ -1,0 +1,18 @@
+services:
+  ai:
+    build: ./python_service
+    ports:
+      - "5000:5000"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      OPENAI_MODEL: ${OPENAI_MODEL}
+
+  bot:
+    build: ./kotlin_bot
+    ports:
+      - "8080:8080"
+    environment:
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
+      PYTHON_SERVICE_URL: http://ai:5000
+    depends_on:
+      - ai
