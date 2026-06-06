@@ -215,3 +215,22 @@ ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
 
 Link do video:  
 https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl/IQCQuqQyKCFWT4mXn1NZzcPoAc3FwOcq3M1hgC5VFGTGN_Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BFwQnj
+
+***
+
+**Zadanie 10**  
+
+✅ 3.0 Należy stworzyć odpowiednie instancje po stronie chmury na
+dockerze  
+✅ 3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania
+aplikacji (np. via fatjar)  
+❌ 4.0 Dodać notyfikację mailową o wynikach z sonara  
+❌ 4.5 Dodać krok z deploymentem aplikacji klienckiej na chmurę (obie ze
+sobą rozmawiają)  
+❌ 5.0 Dodać uruchomienie regresyjnych testów automatycznych
+(funkcjonalnych) jako krok w Actions w Browserstacku  
+
+Link do video:  
+https://ujchmura-my.sharepoint.com/:v:/g/personal/piotr_klocek_student_uj_edu_pl/IQBX67StnBSCSZhcPm1W0enzAUx9TJY1qUdf6qtIVUGWsVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=oIVJ1s
+
+***
