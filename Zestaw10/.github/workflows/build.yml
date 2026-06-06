@@ -1,0 +1,26 @@
+name: Build application
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build backend and frontend with Docker Compose
+        working-directory: ./Zestaw10
+        run: docker compose build
+
+      - name: Verify containers can start
+        working-directory: ./Zestaw10
+        run: |
+          BACKEND_URL=http://localhost:8080 FRONTEND_URL=http://localhost:5173 docker compose up -d
+          docker compose ps
+          docker compose down
